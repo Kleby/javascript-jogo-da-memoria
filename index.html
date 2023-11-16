@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da memória</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    <div class="placar">
+        <h3 class="placar__item">Jogadas: <span id="jogadas">0</span></h3>
+        <h3 class="placar__item">Tempo: <span id="tempo">00:00</span></h3>
+    </div>
+    <div class="container">
+        <h2>Jogo da Memóroia</h2>
+        <div class="game" id="game"></div>
+        <button class="btn-reset" onclick="window.location.reload()">Reiniciar</button>
+    </div>
+
+    <script defer src="src/js/engine.js"></script>
+
+</body>
+</html>
